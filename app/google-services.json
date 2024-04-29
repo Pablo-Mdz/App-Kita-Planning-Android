@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239090138608",
+    "project_id": "kita-8a0c5",
+    "storage_bucket": "kita-8a0c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239090138608:android:77fc238d688cb791e0b135",
+        "android_client_info": {
+          "package_name": "de.syntax.androidabschluss"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdb_sooCsOpVLYXSBvtkt5Zq2FsF-A8vQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

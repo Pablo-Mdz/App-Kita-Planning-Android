@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Kita-Abenteuer</string>
+
+    <string name="home">Home</string>
+    <string name="title_home">Home\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="events">Events</string>
+    <string name="news">News</string>
+    <string name="about_us">About Us</string>
+    <string name="settings">Settings</string>
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Log In</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="description">Making time for your family can be difficult in this day in age as work and other tasks can sometimes get in the way and prevent you from having time with them. But what if you could get everyone involved in cooking dinner and enjoying good food. In this article, we will be looking into some of the ways that you can get the kids involved when cooking in the kitchen.</string>
+    <string name="new_event">New Event</string>
+    <string name="add_new_event">Add new event</string>
+    <string name="search_event">search event</string>
+    <string name="daily">Daily</string>
+    <string name="delete">DELETE</string>
+    <string name="save">Save</string>
+    <string name="new_user">New User</string>
+    <string name="logout">Logout</string>
+    <string name="account">Account</string>
+    <string name="pablo_cigoy_2024_syntax_institut_batch_13">Pablo Cigoy 2024 - Syntax Institut (Batch 13)</string>
+    <string name="login_teachers">Login Teachers</string>
+    <string name="contact_telefon">Telefon: +49 176 34404091</string>
+    <string name="contact_adresse">Adresse: Bornholmer Str. 13 - 14309, Berlin</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="calendar">Calendar</string>
+    <string name="impressum">Impressum</string>
+    <string name="open_source_licenses">Open Source Licenses</string>
+    <string name="data_protection">Data protection</string>
+    <string name="therms_and_conditions">Therms and conditions</string>
+
+</resources>

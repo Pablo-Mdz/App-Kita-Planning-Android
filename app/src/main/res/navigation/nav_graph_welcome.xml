@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_welcome"
+    app:startDestination="@id/WelcomeFragment">
+
+    <fragment
+        android:id="@+id/WelcomeFragment"
+        android:name="de.syntax.androidabschluss.ui.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_logInFragmentTeachers2"
+            app:destination="@id/logInFragmentTeachers" />
+        <action
+            android:id="@+id/action_WelcomeFragment_to_logInFragmentParents"
+            app:destination="@id/logInFragmentParents" />
+        <action
+            android:id="@+id/action_WelcomeFragment_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
+        <action
+            android:id="@+id/action_WelcomeFragment_to_mainActivity22"
+            app:destination="@id/mainActivity2" />
+        <action
+            android:id="@+id/action_WelcomeFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFragmentTeachers"
+        android:name="de.syntax.androidabschluss.ui.auth.LogInFragmentTeachers"
+        android:label="LogInFragmentTeachers"
+        tools:layout="@layout/fragment_log_in_teachers">
+        <action
+            android:id="@+id/action_logInFragmentTeachers_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="de.syntax.androidabschluss.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/logInFragmentParents"
+        android:name="de.syntax.androidabschluss.ui.auth.LogInFragmentParents"
+        android:label="fragment_log_in_parents"
+        tools:layout="@layout/fragment_log_in_parents" >
+        <action
+            android:id="@+id/action_logInFragmentParents_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="de.syntax.androidabschluss.ui.auth.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/action_signUpFragment_to_WelcomeFragment"
+            app:destination="@id/WelcomeFragment" />
+    </fragment>
+</navigation>

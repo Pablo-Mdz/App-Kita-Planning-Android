@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="de.syntax.androidabschluss.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_welcomeActivity"
+            app:destination="@id/welcomeActivity" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_news"
+            app:destination="@id/navigation_daily" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_events"
+            app:destination="@id/navigation_events" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_about_us"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_home_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_daily"
+            app:destination="@id/navigation_daily" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_calendar"
+            app:destination="@id/navigation_calendar" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_about_us2"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_calendar2"
+            app:destination="@id/navigation_calendar" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_events2"
+            app:destination="@id/navigation_events" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_about_us3"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_home_to_IAChatFragment"
+            app:destination="@id/IAChatFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_signUpFragment2"
+            app:destination="@id/signUpFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_about_us"
+        android:name="de.syntax.androidabschluss.ui.aboutUs.AboutUsFragment"
+        android:label="AboutUsFragment"
+        tools:layout="@layout/fragment_about_us">
+        <action
+            android:id="@+id/action_navigation_about_us_to_welcomeActivity"
+            app:destination="@id/welcomeActivity" />
+        <action
+            android:id="@+id/action_navigation_about_us_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_navigation_about_us_to_navigation_daily"
+            app:destination="@id/navigation_daily" />
+        <action
+            android:id="@+id/action_navigation_about_us_self"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_about_us_to_IAChatFragment"
+            app:destination="@id/IAChatFragment" />
+        <action
+            android:id="@+id/action_navigation_about_us_to_signUpFragment2"
+            app:destination="@id/signUpFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_daily"
+        android:name="de.syntax.androidabschluss.ui.daily.DailyFragment"
+        android:label="fragment_daily"
+        tools:layout="@layout/fragment_daily" >
+        <action
+            android:id="@+id/action_navigation_daily_to_welcomeActivity"
+            app:destination="@id/welcomeActivity" />
+        <action
+            android:id="@+id/action_navigation_daily_to_newDailyInfoFragment"
+            app:destination="@id/newDailyInfoFragment" />
+        <action
+            android:id="@+id/action_navigation_daily_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_navigation_daily_to_navigation_about_us"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_daily_to_navigation_about_us2"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_daily_to_navigation_calendar"
+            app:destination="@id/navigation_calendar" />
+        <action
+            android:id="@+id/action_navigation_daily_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_daily_to_navigation_events"
+            app:destination="@id/navigation_events" />
+        <action
+            android:id="@+id/action_navigation_daily_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+        <action
+            android:id="@+id/action_navigation_daily_to_IAChatFragment"
+            app:destination="@id/IAChatFragment" />
+        <action
+            android:id="@+id/action_navigation_daily_to_signUpFragment2"
+            app:destination="@id/signUpFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="de.syntax.androidabschluss.ui.calendar.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_navigation_settings_to_welcomeActivity"
+            app:destination="@id/welcomeActivity" />
+        <action
+            android:id="@+id/action_navigation_calendar_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_navigation_calendar_to_navigation_about_us"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_calendar_self"
+            app:destination="@id/navigation_calendar" />
+        <action
+            android:id="@+id/action_navigation_calendar_to_IAChatFragment"
+            app:destination="@id/IAChatFragment" />
+        <action
+            android:id="@+id/action_navigation_calendar_to_signUpFragment2"
+            app:destination="@id/signUpFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="de.syntax.androidabschluss.ui.events.EventsFragment"
+        android:label="fragment_events"
+        tools:layout="@layout/fragment_events" >
+        <action
+            android:id="@+id/action_navigation_events_to_newEventFragment"
+            app:destination="@id/newEventFragment" />
+        <action
+            android:id="@+id/action_navigation_events_to_editEventFragment"
+            app:destination="@id/editEventFragment" />
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_about_us"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_events_to_welcomeActivity"
+            app:destination="@id/welcomeActivity" />
+        <action
+            android:id="@+id/action_navigation_events_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_calendar"
+            app:destination="@id/navigation_calendar" />
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_about_us2"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_home2"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_daily"
+            app:destination="@id/navigation_daily" />
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_calendar2"
+            app:destination="@id/navigation_calendar" />
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_about_us3"
+            app:destination="@id/navigation_about_us" />
+        <action
+            android:id="@+id/action_navigation_events_to_IAChatFragment"
+            app:destination="@id/IAChatFragment" />
+        <action
+            android:id="@+id/action_navigation_events_to_signUpFragment2"
+            app:destination="@id/signUpFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/newEventFragment"
+        android:name="de.syntax.androidabschluss.ui.events.NewEventFragment"
+        android:label="fragment_new_event"
+        tools:layout="@layout/fragment_new_event" >
+        <action
+            android:id="@+id/action_newEventFragment_to_navigation_events"
+            app:destination="@id/navigation_events" />
+    </fragment>
+    <activity
+        android:id="@+id/welcomeActivity"
+        android:name="de.syntax.androidabschluss.ui.welcome.WelcomeActivity"
+        android:label="activity_welcome"
+        tools:layout="@layout/activity_welcome" />
+    <fragment
+        android:id="@+id/editEventFragment"
+        android:name="de.syntax.androidabschluss.ui.events.EditEventFragment"
+        android:label="EditEventFragment"
+        tools:layout="@layout/fragment_edit_event">
+        <action
+            android:id="@+id/action_editEventFragment_to_navigation_events"
+            app:destination="@id/navigation_events" />
+        <argument
+            android:name="eventId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/newDailyInfoFragment"
+        android:name="de.syntax.androidabschluss.ui.daily.NewDailyInfoFragment"
+        android:label="fragment_new_daily_info"
+        tools:layout="@layout/fragment_new_daily_info" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="de.syntax.androidabschluss.ui.info.InfoFragment"
+        android:label="InfoFragment"
+        tools:layout="@layout/fragment_info">
+        <action
+            android:id="@+id/action_infoFragment_to_impressumFragment"
+            app:destination="@id/impressumFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_dataProtectionFragment"
+            app:destination="@id/dataProtectionFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_openSourceLicensesFragment"
+            app:destination="@id/openSourceLicensesFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_thermsAndConditionsFragment"
+            app:destination="@id/thermsAndConditionsFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/impressumFragment"
+        android:name="de.syntax.androidabschluss.ui.info.ImpressumFragment"
+        android:label="ImpressumFragment"
+        tools:layout="@layout/fragment_impressum">
+        <action
+            android:id="@+id/action_impressumFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataProtectionFragment"
+        android:name="de.syntax.androidabschluss.ui.info.DataProtectionFragment"
+        android:label="DataProtectionFragment"
+        tools:layout="@layout/fragment_data_protection">
+        <action
+            android:id="@+id/action_dataProtectionFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/openSourceLicensesFragment"
+        android:name="de.syntax.androidabschluss.ui.info.OpenSourceLicensesFragment"
+        android:label="OpenSourceLicensesFragment"
+        tools:layout="@layout/fragment_open_source_licenses">
+        <action
+            android:id="@+id/action_openSourceLicensesFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thermsAndConditionsFragment"
+        android:name="de.syntax.androidabschluss.ui.info.ThermsAndConditionsFragment"
+        android:label="ThermsAndConditionsFragment"
+        tools:layout="@layout/fragment_therms_and_conditions">
+        <action
+            android:id="@+id/action_thermsAndConditionsFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/addNoteFragment"
+        android:name="de.syntax.androidabschluss.ui.daily.AddNoteFragment"
+        android:label="fragment_add_note"
+        tools:layout="@layout/fragment_add_note" >
+        <action
+            android:id="@+id/action_addNoteFragment_to_navigation_daily"
+            app:destination="@id/navigation_daily" />
+    </dialog>
+    <fragment
+        android:id="@+id/IAChatFragment"
+        android:name="de.syntax.androidabschluss.ui.ia.IAChatFragment"
+        android:label="fragment_i_a_chat"
+        tools:layout="@layout/fragment_i_a_chat" />
+    <fragment
+        android:id="@+id/signUpFragment2"
+        android:name="de.syntax.androidabschluss.ui.auth.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_sign_up"/>
+
+</navigation>

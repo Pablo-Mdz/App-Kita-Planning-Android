@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item_home"
+        android:checkable="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/item_bot_ia"
+        android:checkable="true"
+        android:icon="@drawable/gif_bot"
+        android:title="Bot IA" />
+
+    <item android:title="@string/account">
+        <menu>
+            <item
+                android:id="@+id/add_new_user"
+                android:checkable="true"
+                android:icon="@drawable/ic_add"
+                android:title="@string/new_user" />
+            <item
+                android:id="@+id/item_logout"
+                android:checkable="true"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+            <item
+                android:id="@+id/item_info"
+                android:checkable="true"
+                android:icon="@drawable/icon_info"
+                android:title="Info" />
+
+        </menu>
+    </item>
+
+
+</menu>
